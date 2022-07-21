@@ -2,7 +2,7 @@
 
 **ME AND MY TROLL FARM: ROAD TO PROPAGANDA STARDOOM** is a text-based *Mad Libs-esque* game created in C. The prototype of a game does not tout to be a "solution" to existing social problems in the country; rather, it aims to produce a supplement of sorts to learning, particularly in the field on how disinformation works and spreads.
 
-![Start menu](media/Pasted image 20220620144333.png "Start menu")
+![Start menu](./media/Pasted image 20220620144333.png "Start menu")
 
 ## Premise
 >Justin Bulag is a fresh journalism graduate hired in an “advertising” firm. His first job is for a reelectionist mayoral candidate Sam A. Ilad-Lang, who seeks to rebrand her image for the upcoming 2069 midterm elections. In the rapidly advancing information war, it is up to Justin to either produce top-notch propaganda, at the expense of fooling the online public, or expose Sam’s fraudulent ways and reveal the truth.
@@ -20,7 +20,7 @@ Take note that in subsequent rounds, players will need to use “unfavorable” 
 ### Functions
 Multiple functions are used in the program. Since some lines of code will be repeated several times during the process (e.g. scores, opening files, choosing an input, etc.), it is much easier to just create a function and calling it.
 
-![Functions used in the game](media/Pasted image 20220620144928.png "Functions used in the game")
+![Functions used in the game](./media/Pasted image 20220620144928.png "Functions used in the game")
 
 * `void startMenu();`  - a start submenu for the game. User is given three options: (1) Start, (2) Tutorial, or (3) Quit. Each choice will lead to the `playGame()`, `tutorialSubmenu()` or `quitSubmenu()` functions. 
 ```C
@@ -251,7 +251,7 @@ void scriptChoice(int i, int size){
 ### Arrays
 Accesing the file using variables and strings may become messy in the long run. Instead, file names are enclosed in a 1D array, and will be accessed using their respective indices.
 
-![Selected arrays used in the game](media/Pasted image 20220620152236.png "Selected arrays used in the game")
+![Selected arrays used in the game](./media/Pasted image 20220620152236.png "Selected arrays used in the game")
 
 -`char *header_filelist[]` - encloses text files that contain headers inside (e.g. TUTORIAL, CHAPTER 1, etc.)
 ```C
@@ -316,7 +316,7 @@ char *ending_filelist[] = {
 ### Pointers
 There are two instances where pointers are used: creating the `calcScore()` function and when opening a file.
 
-![calcScore() function using a pointer](media/Pasted image 20220620153902.png "calcScore() function using a pointer")
+![calcScore() function using a pointer](./media/Pasted image 20220620153902.png "calcScore() function using a pointer")
 
 During initial testing, `calcScore()` was not able to change the score's value when outside the function, so a pointer has to be used to permanently alter the score after the user's input. This is also known as `pass-by-reference`.
 
@@ -327,4 +327,4 @@ There is extensive use of files handling and manipulation, since it stores all t
 
 While they are both similar (e.g. using the `fopen()`, `fgets()` and `fclose()` functions to open, print, and close the textfiles), there are some very small differences. `linebylineFile()` only prints one line at a time until the 'Enter' key is pressed. Since it is primarily used for the dialog portions of the game, it makes it a little interactive for the user. Meanwhile `wholeFile()` prints the entire text file, and is used for the headers and scripts.
 
-![linebylineFile() and wholeFile() functions](media/Pasted image 20220620154214.png "linebylineFile() and wholeFile() functions")
+![linebylineFile() and wholeFile() functions](./media/Pasted image 20220620154214.png "linebylineFile() and wholeFile() functions")
