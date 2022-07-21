@@ -2,7 +2,7 @@
 
 **ME AND MY TROLL FARM: ROAD TO PROPAGANDA STARDOOM** is a text-based *Mad Libs-esque* game created in C. The prototype of a game does not tout to be a "solution" to existing social problems in the country; rather, it aims to produce a supplement of sorts to learning, particularly in the field on how disinformation works and spreads.
 
-![Start menu](./media/Pasted image 20220620144333.png "Start menu")
+![Start menu](https://github.com/tnrbns/21_final/blob/main/media/Pasted%20image%2020220620144333.png "Start menu")
 
 ## Premise
 >Justin Bulag is a fresh journalism graduate hired in an “advertising” firm. His first job is for a reelectionist mayoral candidate Sam A. Ilad-Lang, who seeks to rebrand her image for the upcoming 2069 midterm elections. In the rapidly advancing information war, it is up to Justin to either produce top-notch propaganda, at the expense of fooling the online public, or expose Sam’s fraudulent ways and reveal the truth.
